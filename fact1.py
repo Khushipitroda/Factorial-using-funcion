@@ -1,4 +1,5 @@
 def factorial(num):
+    #Initilize fact with 1
     fact = 1
     for cnt in range(1, num+1):
         fact = fact*cnt
